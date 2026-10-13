@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Viewport meta tag: needed for the page to be responsive on phones -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal portfolio of Akarui Yuusha, an aspiring web developer."
+    />
+    <title>Akarui Yuusha | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ========================================================== HEADER / NAVIGATION ========================================================== -->
+    <header class="header">
+      <nav class="nav container">
+        <a class="brand" href="#home">Akarui Yuusha</a>
+
+        <button class="menu-button" id="menu-button" aria-label="Open menu">
+          ☰ Menu
+        </button>
+
+        <!-- Anchor links to every section -->
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ========================================================== HERO / ABOUT ME ========================================================== -->
+      <section class="hero container" id="home">
+        <div class="hero-text">
+          <h1>Hi, I'm Albert R. Delos Reyes Jr.</h1>
+          <p class="tagline">Aspiring Web Developer</p>
+          <p>
+            I'm learning to build websites with HTML, CSS, and JavaScript.
+            Envisioning myself as one of the future web developers that will
+            change and improve the world of internet with pleasing and
+            responsive websites.
+          </p>
+          <a class="button" href="#projects">View My Projects</a>
+        </div>
+
+        <!-- Profile photo. -->
+        <img
+          class="avatar"
+          src="images/avatar.jpg"
+          alt="Illustrated avatar of Albert R. Delos Reyes Jr."
+          width="260"
+          height="260"
+        />
+      </section>
+
+      <!-- Brief bio + skills -->
+      <section class="section container" id="about">
+        <h2>About Me</h2>
+        <p>
+          I'm a student developer who is still learning the basics of web
+          development. Currently focusing on writing clean HTML, styling pages
+          with CSS layouts, and adding small interactive features with
+          JavaScript.
+        </p>
+        <p>
+          I like keeping things simple and organized. I try to make sure my
+          pages look good on any screen size and that my code is easy to read.
+        </p>
+
+        <h3>Skills</h3>
+        <ul class="skills">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Flexbox</li>
+          <li>JavaScript</li>
+          <li>Responsive Design</li>
+          <li>Git &amp; GitHub</li>
+        </ul>
+      </section>
+
+      <!-- ========================================================== PROJECTS ========================================================== -->
+      <section class="section container" id="projects">
+        <h2>Projects</h2>
+
+        <div class="project-list">
+          <!-- Project card 1 -->
+          <article class="project-card">
+            <h3>TaskFlow</h3>
+            <p>
+              A simple to-do list where you can add, check off, and delete
+              tasks. Built with plain JavaScript.
+            </p>
+            <p class="tags">HTML · CSS · JavaScript</p>
+            <a
+              href="https://github.com/Akarui-Yuusha"
+              target="_blank"
+              rel="noopener"
+              >View Code</a
+            >
+          </article>
+
+          <!-- Project card 2 -->
+          <article class="project-card">
+            <h3>Weather Dashboard</h3>
+            <p>
+              A small weather page that shows the current temperature and a
+              short forecast for a chosen city.
+            </p>
+            <p class="tags">JavaScript · Fetch API · CSS</p>
+            <a
+              href="https://github.com/Akarui-Yuusha"
+              target="_blank"
+              rel="noopener"
+              >View Code</a
+            >
+          </article>
+
+          <!-- Project card 3 -->
+          <article class="project-card">
+            <h3>QuickNotes</h3>
+            <p>
+              A minimal notes app where you can write and search simple notes.
+              Designed to be quick and distraction-free.
+            </p>
+            <p class="tags">HTML · CSS · JavaScript</p>
+            <a
+              href="https://github.com/Akarui-Yuusha"
+              target="_blank"
+              rel="noopener"
+              >View Code</a
+            >
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- ========================================================== FOOTER / CONTACT ========================================================== -->
+    <footer class="footer" id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Feel free to reach out if you'd like to get in touch.</p>
+
+        <ul class="contact-links">
+          <li>
+            Email:
+            <a href="mailto:AkaruiYuushaProgramming@gmail.com"
+              >AkaruiYuushaProgramming@gmail.com</a
+            >
+          </li>
+          <li>
+            GitHub:
+            <a
+              href="https://github.com/Akarui-Yuusha"
+              target="_blank"
+              rel="noopener"
+              >github.com/Akarui-Yuusha</a
+            >
+          </li>
+          <li>
+            LinkedIn:
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener"
+              >linkedin.com/in/akaruiyuusha</a
+            >
+          </li>
+        </ul>
+
+        <p class="copyright">&copy; 2026 Akarui Yuusha. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
