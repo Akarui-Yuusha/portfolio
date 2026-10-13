@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Personal portfolio of Akarui Yuusha, an aspiring web developer."
+      content="Personal portfolio of Albert R. Delos Reyes Jr., an aspiring web developer."
     />
-    <title>Akarui Yuusha | Portfolio</title>
+    <title>Albert R. Delos Reyes | Portfolio</title>
 
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -17,19 +17,26 @@
     <!-- ========================================================== HEADER / NAVIGATION ========================================================== -->
     <header class="header">
       <nav class="nav container">
-        <a class="brand" href="#home">Akarui Yuusha</a>
+        <a class="brand" href="#home">Albert R. Delos Reyes Jr.</a>
 
-        <button class="menu-button" id="menu-button" aria-label="Open menu">
-          ☰ Menu
-        </button>
+        <!-- Wrapper to keep links and theme toggle grouped on the right with a tight gap -->
+        <div class="nav-menu-container">
+          <!-- Anchor links to every section -->
+          <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
 
-        <!-- Anchor links to every section -->
-        <ul class="nav-links" id="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+          <!-- Right-side controls (Theme Toggle + Mobile Menu Button) -->
+          <div class="nav-right">
+            <button class="modes" id="theme-toggle" aria-label="Toggle dark and light mode">🌙</button>
+            <button class="menu-button" id="menu-button" aria-label="Open menu">
+              ☰ Menu
+            </button>
+          </div>
+        </div>
       </nav>
     </header>
 
@@ -74,7 +81,9 @@
 
         <h3>Skills</h3>
         <ul class="skills">
+          <li>Java</li>
           <li>HTML5</li>
+          <li>React</li>
           <li>CSS3</li>
           <li>Flexbox</li>
           <li>JavaScript</li>
@@ -90,14 +99,19 @@
         <div class="project-list">
           <!-- Project card 1 -->
           <article class="project-card">
-            <h3>TaskFlow</h3>
+            <h3>Agap.ai</h3>
             <p>
-              A simple to-do list where you can add, check off, and delete
-              tasks. Built with plain JavaScript.
+              An AI-powered mobile app that helps users when disaster strikes.
+              Its a resilient system that offers various features such as
+              emergency reports, SOS, AI assistance, and more. The app is
+              designed to be user-friendly and accessible to everyone.
             </p>
-            <p class="tags">HTML · CSS · JavaScript</p>
+            <p class="tags">
+              React Expo · CSS · Express.js · PostgreSQL · SQLite
+            </p>
+
             <a
-              href="https://github.com/Akarui-Yuusha"
+              href="https://github.com/tephL/agap.ai"
               target="_blank"
               rel="noopener"
               >View Code</a
@@ -106,14 +120,15 @@
 
           <!-- Project card 2 -->
           <article class="project-card">
-            <h3>Weather Dashboard</h3>
+            <h3>HotelBilly</h3>
             <p>
-              A small weather page that shows the current temperature and a
-              short forecast for a chosen city.
+              A simple CLI-based hotel reservation application purely made in
+              Java. It offers the essential needs and workflow when it comes to
+              reserving for a hotel room.
             </p>
-            <p class="tags">JavaScript · Fetch API · CSS</p>
+            <p class="tags">Java</p>
             <a
-              href="https://github.com/Akarui-Yuusha"
+              href="https://github.com/Akarui-Yuusha/HotelBilly2"
               target="_blank"
               rel="noopener"
               >View Code</a
@@ -122,14 +137,15 @@
 
           <!-- Project card 3 -->
           <article class="project-card">
-            <h3>QuickNotes</h3>
+            <h3>CasaCafe Point-of-Sale and Inventory System</h3>
             <p>
-              A minimal notes app where you can write and search simple notes.
-              Designed to be quick and distraction-free.
+              A web-based application that offers the functionality for handling
+              customer orders and inventory management. Provides a user friendly
+              and aesthetic UI and intuitive UX.
             </p>
             <p class="tags">HTML · CSS · JavaScript</p>
             <a
-              href="https://github.com/Akarui-Yuusha"
+              href="https://github.com/Akarui-Yuusha/pos-inventory-management-project"
               target="_blank"
               rel="noopener"
               >View Code</a
@@ -169,7 +185,7 @@
           </li>
         </ul>
 
-        <p class="copyright">&copy; 2026 Akarui Yuusha. All rights reserved.</p>
+        <p class="copyright">&copy; 2026 Albert R. Delos Reyes Jr. All rights reserved.</p>
       </div>
     </footer>
 
