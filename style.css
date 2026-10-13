@@ -42,7 +42,9 @@ body {
   color: var(--text-color);
   background-color: var(--bg-color);
   overflow-x: hidden;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 .container {
@@ -158,7 +160,9 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.2s ease, transform 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
 }
 
 .modes:hover {
@@ -239,7 +243,9 @@ a:hover {
   padding: 6px 14px;
   border-radius: 20px;
   font-size: 14px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 /* ---------- Projects ---------- */
